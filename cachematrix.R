@@ -32,3 +32,10 @@ cacheSolve <- function(x, ...) {
   x$SetInv(NewInv)
   NewInv
 }
+
+# After completing our code, we execute the following to create our matrices. From that point we return our values and run
+# cacheSolve(cx) twice in order to get the desired result. Only after running the second time will we get our message.
+## x <- matrix(rnorm(16), nrow = 4)
+## cx <- makeCacheMatrix(x)                  
+## cx$get()                                  
+## cacheSolve(cx)                            
